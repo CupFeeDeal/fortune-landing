@@ -4,9 +4,15 @@
   --background: #ffffff;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif, pretendard;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 @theme {
