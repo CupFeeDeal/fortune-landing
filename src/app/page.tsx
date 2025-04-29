@@ -2,10 +2,14 @@ export default function Home() {
   return (
     <div className="h-dvh overflow-y-auto">
       <div className="relative w-full max-w-[440px] mx-auto">
-        <img src="/assets/Background.svg" alt="background" className="w-full" />
+        <img
+          src="/assets/Background1.svg"
+          alt="background"
+          className="w-full"
+        />
 
         {/* 리포트 예시 스크롤 */}
-        <div className="absolute bottom-[50rem] flex overflow-x-scroll gap-4">
+        <div className="flex overflow-x-scroll gap-4 bg-[#191F28] pb-28">
           <img
             src="/assets/Example1.png"
             alt="example1"
@@ -15,6 +19,14 @@ export default function Home() {
           <img src="/assets/Example3.png" alt="example1" className="w-[80%]" />
           <div className="w-4" />
         </div>
+      </div>
+
+      <div className="relative w-full max-w-[440px] mx-auto">
+        <img
+          src="/assets/Background2.svg"
+          alt="background"
+          className="w-full"
+        />
       </div>
 
       {/* CTA 버튼 */}
