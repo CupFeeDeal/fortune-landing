@@ -3,7 +3,7 @@ export default function Home() {
     <div className="h-dvh overflow-y-auto">
       <div className="relative w-full max-w-[440px] mx-auto">
         <img
-          src="/assets/Background1.svg"
+          src="/assets/Background1.png"
           alt="background"
           className="w-full"
         />
@@ -23,7 +23,7 @@ export default function Home() {
 
       <div className="relative w-full max-w-[440px] mx-auto">
         <img
-          src="/assets/Background2.svg"
+          src="/assets/Background2.png"
           alt="background"
           className="w-full"
         />
